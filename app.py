@@ -57,3 +57,6 @@ def classify():
     except Exception as e:
         error_message = f"An error occurred: {str(e)}"
         return render_template('error.html', error_message=error_message)
+
+if __name__ == '__main__':
+    app.run(debug=True)
