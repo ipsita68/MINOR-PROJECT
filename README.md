@@ -31,8 +31,33 @@ This repository contains a Flask web application for classifying emails as spam 
 3. The application will classify the input message as either spam or ham and display the result.
 
 **Notes:**
+- The classification results provided by the application might not be 100% accurate as it depends on the quality and diversity of the dataset used for training the classifier.
 - Ensure that the CSV files `spam.csv` and `spam_ham_dataset.csv` are present in the repository directory.
 - The application utilizes techniques to handle class imbalance in the dataset.
 - Any errors encountered during classification or execution of the application will be displayed on the error page.
+
+**Example test-statements that you can use to test data:**
+
+   - Here are some examples of non-spam (ham) emails:
+        - "Hi John, just wanted to follow up on our meeting from yesterday. Could you please review the attached document and let me know your thoughts? Thanks."
+        - "Dear Customer, thank you for your recent purchase. Your order (#123456) has been processed and will be shipped out within the next 24 hours. You can track your order using the link provided below."
+        - "Hey Sarah, how was your weekend? I hope you had a great time at the party on Saturday. Let's catch up soon over coffee."
+        - "Reminder: Your appointment with Dr. Smith is scheduled for tomorrow at 10:00 AM. Please remember to bring any necessary documents or test results with you."
+        - "Hello team, just a quick heads up that our weekly meeting has been rescheduled to Thursday at 3:00 PM. Please update your calendars accordingly."
+
+**These emails contain typical content found in legitimate correspondence, such as meeting reminders, order confirmations, personal messages, and updates on appointments or events.**
+
+   - Here are some examples of spam emails:
+        - "Congratulations! You've been selected as a winner of our monthly prize draw. Click here to claim your prize of $1000 cash!"
+        - "Special offer: Get 50% off on all purchases at our online store. Limited time only! Click here to shop now."
+        - "URGENT: Your account has been compromised. Click here to verify your identity and secure your account."
+        - "Make money fast with our proven investment strategy. Start earning thousands of dollars per week from the comfort of your own home."
+        - "You've won a free vacation to a tropical paradise! Claim your trip now by clicking the link below."
+
+**These emails often contain offers that seem too good to be true, urgent requests for action, or prompts to click on links that may lead to phishing websites or malware downloads.**
+You are free to use any other data you want to test!
+
+
+
 
 **Contributors: [IPSITA/ipsita68]**
