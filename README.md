@@ -1,4 +1,7 @@
-**Repository: SpamClassifierFlask**
+
+---
+
+# Spam Detector
 
 **Description:**
 This repository contains a Flask web application for classifying emails as spam or ham (non-spam) using a Naive Bayes classifier trained on a combined dataset from existing CSV files and additional CSV files. The application utilizes techniques such as TF-IDF vectorization, label encoding, data balancing using RandomOverSampler and RandomUnderSampler, and Multinomial Naive Bayes classification.
@@ -32,9 +35,4 @@ This repository contains a Flask web application for classifying emails as spam 
 - The application utilizes techniques to handle class imbalance in the dataset.
 - Any errors encountered during classification or execution of the application will be displayed on the error page.
 
-**Contributors:**
-- [Ipsita/ipsita68]
-
-
-**Contact:**
-For any inquiries or issues regarding the application, please contact [ipsitaconnect@gmail.com].
+**Contributors: [IPSITA/ipsita68]**
