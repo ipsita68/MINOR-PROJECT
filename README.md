@@ -24,12 +24,6 @@ This repository contains a Flask web application for classifying emails as spam 
 4. Run the Flask application by executing `app.py`.
 5. Open a web browser and navigate to `http://localhost:5000` to access the web application.
 
-
----
-# *Note: The classification results provided by the application might not be 100% accurate as it depends on the quality and diversity of the dataset used for training the classifier.*
-
-
----
 **Usage:**
 1. Upon accessing the web application, you will see a text area where you can input an email message.
 2. Enter an email message and click the "Classify" button.
@@ -40,7 +34,7 @@ This repository contains a Flask web application for classifying emails as spam 
 - The application utilizes techniques to handle class imbalance in the dataset.
 - Any errors encountered during classification or execution of the application will be displayed on the error page.
 
-**Example test-statements that you can use to test data:**
+**Example test-statements that you can use to copy/paste and test the working of the Spam Detector:**
 
    - Here are some examples of non-spam (ham) emails:
         - "Hi John, just wanted to follow up on our meeting from yesterday. Could you please review the attached document and let me know your thoughts? Thanks."
@@ -60,8 +54,7 @@ This repository contains a Flask web application for classifying emails as spam 
 
 **These emails often contain offers that seem too good to be true, urgent requests for action, or prompts to click on links that may lead to phishing websites or malware downloads.**
 You are free to use any other data you want to test!
-
-
-
-
+---
+# *Note: The classification results provided by the application might not be 100% accurate as it depends on the quality and diversity of the dataset used for training the classifier.*
+---
 **Contributors: [IPSITA/ipsita68]**
