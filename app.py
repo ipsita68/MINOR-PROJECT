@@ -26,7 +26,7 @@ rus = RandomUnderSampler(random_state=42)
 X_resampled, y_resampled = rus.fit_resample(*ros.fit_resample(
     df_combined['text'].values.reshape(-1, 1), df_combined['label']))
 
-# Vectorizing the emails using TfidfVectorizer
+# Vectorizing the emails using TF-IDF Vectorizer
 vectorizer = TfidfVectorizer()
 X = vectorizer.fit_transform(X_resampled.ravel())
 y = y_resampled
@@ -57,6 +57,7 @@ def classify():
     except Exception as e:
         error_message = f"An error occurred: {str(e)}"
         return render_template('error.html', error_message=error_message)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
