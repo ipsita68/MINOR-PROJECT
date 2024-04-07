@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spam Detector Result</title>
+    <title>Email Spam Detector Result</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -24,7 +24,7 @@
       h1 {
         text-align: center;
         margin-bottom: 30px;
-        color: #007bff;
+        color: black;
       }
 
       .result {
@@ -51,7 +51,7 @@
   </head>
   <body>
     <div class="container">
-      <h1 style="font-weight: bold">Spam Detector Result</h1>
+      <h1 style="font-weight: bold">Email Spam Detector Result</h1>
       <div class="result">
         <i><h3>Message:</h3></i>
         <p class="message">{{ message }}</p>
@@ -62,7 +62,7 @@
         <p class="ham">This message is predicted as <strong>Ham</strong>.</p>
         {% endif %}
       </div>
-      <a href="/" class="btn btn-primary">Try Another</a>
+      <a href="/" class="btn btn-dark">Try Another</a>
       <!-- Centered button -->
     </div>
   </body>
