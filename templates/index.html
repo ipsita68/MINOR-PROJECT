@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spam Detector</title>
+    <title>Email Spam Detector</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -33,7 +33,7 @@
         font-weight: bold;
         text-align: center;
         margin-bottom: 30px;
-        color: #007bff; /* Set color to primary blue */
+        color: black;
       }
 
       .form-group {
@@ -53,7 +53,7 @@
       input[type="submit"] {
         width: 100%;
         padding: 10px 20px;
-        background-color: #007bff;
+        background-color: black;
         border: none;
         color: #fff;
         border-radius: 4px;
@@ -62,7 +62,7 @@
       }
 
       input[type="submit"]:hover {
-        background-color: #0056b3;
+        background-color: black;
       }
 
       .toggle-container {
@@ -113,11 +113,11 @@
       }
 
       input:checked + .toggle-slider {
-        background-color: #2196f3;
+        background-color: black;
       }
 
       input:focus + .toggle-slider {
-        box-shadow: 0 0 1px #2196f3;
+        box-shadow: 0 0 1px black;
       }
 
       input:checked + .toggle-slider:before {
@@ -146,7 +146,7 @@
 
   <body>
     <div class="container">
-      <h1>Spam Detector</h1>
+      <h1>Email Spam Detector</h1>
       <form action="/classify" method="post">
         <div class="form-group">
           <textarea
